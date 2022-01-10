@@ -1,0 +1,29 @@
+{
+  "name": "automacao_cea_cadastro-login-compra",
+  "version": "1.0.0",
+  "description": "Automação do processo de cadastro, autenticação no sistema e realização de compra na loja C&amp;A",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emersonsantiago/automacao_cea_cadastro-login-compra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emersonsantiago/automacao_cea_cadastro-login-compra/issues"
+  },
+  "homepage": "https://github.com/emersonsantiago/automacao_cea_cadastro-login-compra#readme",
+  "devDependencies": {
+    "cypress": "^9.2.0",
+    "webpack": "^5.65.0"
+  },
+  "dependencies": {
+    "faker": "^5.5.3",
+    "faker-br": "^0.4.1"
+  }
+}
